@@ -12,9 +12,10 @@ function App() {
     <Router>
       <div className="App">
         <Header />
-        <Routes>
+        {/* <Routes>
           <Route path="/" element={<Profile />} />
-        </Routes>
+        </Routes> */}
+        <Profile />
         <Footer />
       </div>
     </Router>
