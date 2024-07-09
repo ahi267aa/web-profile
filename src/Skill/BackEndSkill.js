@@ -15,15 +15,18 @@ const BackEndSkill = () => (
   <div className="skill-content">
     <div className="skill-text">
       <h2>Tools</h2>
-      <p>
-        xxx
+      <div className='skill-description-box'>
         <br />
-        <br />
-        xxx
-        <br />
-        <br />
-        xxx
-      </p>
+        <p className='skill-description'>
+          Use Git for version control, include publish of Github / Gitlab.
+        </p>
+        <p className='skill-description'>
+          Database using relational(MySQL) and non-relational (MongoDB), FastAPI for front-end / back-end communication.
+        </p>
+        <p className='skill-description'>
+          Docker for web container deployment and version control.
+        </p>
+      </div>
     </div>
     <SkillChart title="Tools" skills={backEndSkills} />
   </div>

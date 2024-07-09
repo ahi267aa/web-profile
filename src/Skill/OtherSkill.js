@@ -15,15 +15,15 @@ const OtherSkill = () => (
   <div className="skill-content">
     <div className="skill-text">
       <h2>System</h2>
-      <p>
-        xxx
-        <br />
-        <br />
-        xxx
-        <br />
-        <br />
-        xxx
-      </p>
+      <br />
+      <div className='skill-description-box'>
+        <p className='skill-description'>
+          Mainly using Windows operating system, including software, applications and web pages, etc.
+        </p>
+        <p className='skill-description'>
+          exposed to Linux systems at work and university to achieve edge system development, such as Jetson Nano. Also used the combination of Raspberry Pi3 and Arduino to create IoT system.
+        </p>
+      </div>
     </div>
     <SkillChart title="System" skills={otherSkills} />
   </div>

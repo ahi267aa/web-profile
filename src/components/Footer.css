@@ -1,11 +1,11 @@
-/* src/components/Footer.css */
 .footer {
-  background-color: #0073e6;
-  color: white;
-  padding: 1rem 0;
-  text-align: center;
+  display: flex;
+  justify-content: space-around;
+  padding: 1rem;
+  background-color: #000;
+  color: #fff;
 }
 
-.footer p {
-  margin: 0;
+.footer-item {
+  padding: 0 10px;
 }

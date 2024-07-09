@@ -4,11 +4,12 @@ import './Footer.css';
 
 function Footer() {
   return (
-    <footer className="footer">
-      <div className="container">
-        <p>&copy; 2024 我的名字. 保留所有權利.</p>
-      </div>
+    <footer class="footer">
+      <div class="footer-item">Lucy Chiu &copy; 2024</div>
+      <div class="footer-item">Phone: 0905-031-172</div>
+      <div class="footer-item">Email: ahi267aa@gmail.com</div>
     </footer>
+
   );
 }
 

@@ -19,10 +19,17 @@ body, html {
   min-height: 100vh;
 }
 
-.header, .footer {
-  background-color: #0073e6;
+.header {
+  background-color: #000;
   color: white;
   min-height: 100vh;
+  text-align: center;
+}
+
+.footer {
+  background-color: #000;
+  color: white;
+  min-height: 1.5rem;
   text-align: center;
 }
 

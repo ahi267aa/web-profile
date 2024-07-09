@@ -5,6 +5,7 @@ import FrontEndSkill from '../Skill/FrontEndSkill';
 import BackEndSkill from '../Skill/BackEndSkill';
 import OtherSkill from '../Skill/OtherSkill';
 import SkillSelect from '../Skill/SkillSelect';
+import Experience from '../Experience/Experience';
 // import './Profile.css';
 
 const Profile = () => {
@@ -38,10 +39,11 @@ const Profile = () => {
           </div>
         </div>
       </section>
-      <section id="experience" className="section">
-        <h2>Experience</h2>
-        <p>Experience section content.</p>
-      </section>
+      {/* <section id="experience" className="section"> */}
+        {/* <h2>Experience</h2>
+        <p>Experience section content.</p> */}
+        {/* <Experience /> */}
+      {/* </section> */}
     </div>
   );
 };
