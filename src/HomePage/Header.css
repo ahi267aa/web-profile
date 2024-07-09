@@ -1,0 +1,77 @@
+/* src/HomePage/header.css */
+/* Layout Arrangement */
+.header {
+  background-image: url(../images/header_background.jpg);
+  background-size: cover;
+  color: white;
+  padding: 2rem 0;
+}
+
+.header-container {
+  display: flex;
+  align-items: center;
+  height: 100vh;
+  justify-content: space-between; /* 水平分配空間 */
+}
+
+.header-container-left {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  padding: 5rem;
+}
+
+.header-container-right {
+  flex: 1;
+  padding: 5rem;
+}
+
+.header-myinfo {
+  -webkit-animation: text .8s ease .6s backwards;
+  animation: text .8s ease .6s backwards;
+  -webkit-backdrop-filter: blur(8px);
+  backdrop-filter: blur(8px);
+  background-color: hsla(0, 0%, 100%, .2);
+  color: #fff;
+  min-width: 15rem;
+  padding: 2.5rem;
+  position: relative;
+  width: 75%;
+  z-index: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center; /* 垂直置中 */
+  align-items: flex-start; /* 水平置左對齊 */
+}
+
+
+/* Text Setting */
+.header h1 {
+  margin: 0;
+  font-size: 2.5rem;
+  padding: 1rem 0;
+  color: #fff;
+}
+
+.header h3 {
+  margin: 0;
+  font-size: 1.5rem;
+  padding: 0.2rem 0;
+  color: #272728;
+}
+
+.header h4 {
+  margin: 0;
+  font-size: 1.5rem;
+  padding: 0.2rem 0;
+  color: #9d978e;
+}
+
+.header h5 {
+  margin: 0;
+  font-size: 1.2rem;
+  padding: 0.2rem 0 1.5rem 0;
+  color: #beb6ab;
+}

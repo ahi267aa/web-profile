@@ -1,0 +1,60 @@
+/* src/About/AboutMe.css */
+/* Layout Arrangement */
+.about {
+  background-size: cover;
+  background-color: rgb(240, 239, 239);
+  color: #272728;
+  padding: 3rem;
+}
+
+.about-container {
+  display: flex;
+  align-items: center;
+  height: 100vh;
+  justify-content: space-between;
+}
+
+.about-container-left {
+  flex: 1;
+  padding: 5rem 0 5rem 10rem;
+}
+
+.about-container-right {
+  flex: 2;
+  padding: 5rem;
+  text-align: left;
+  display: inline-block;
+}
+
+.about-container-right-introduce {
+  padding-bottom: 1rem;
+}
+
+/* Context */
+.about h2 {
+  margin: 0;
+  font-size: 1rem;
+  padding: 0.2rem 0;
+  color: #373738;
+}
+
+.about h3 {
+  margin: 0;
+  font-size: 1rem;
+  padding: 0.2rem 0;
+  color: #8d8e8f;
+  line-height: 2rem;
+}
+
+.about-content {
+  /* text-indent: 2em; */
+  font-size: 0.7rem;
+  color: #8d8e8f;
+  line-height: 1.8rem;
+  /* padding-bottom: 1rem; */
+}
+
+/* Divider */
+.hr {
+  border-color: #8d8e8f;
+}

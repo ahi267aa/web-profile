@@ -1,0 +1,33 @@
+/* src/components/MyInfo.css */
+
+.my-info {
+    padding-top: 1rem;
+}
+
+.info-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 1rem 0;
+    
+}
+
+.info-table td {
+    padding: 0.5rem;
+    text-align: left;
+    font-size: 0.8rem;
+}
+
+.info-table td:first-child,
+.info-table td:nth-child(3) {
+    font-weight: bold;
+    width: 10%;
+    color: #373738;
+    font-size: 1rem;
+}
+
+.info-table td:nth-child(2),
+.info-table td:nth-child(4) {
+    width: 35%;
+    color: #8d8e8f;
+    font-size: 1rem;
+}

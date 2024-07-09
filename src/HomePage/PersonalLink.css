@@ -1,0 +1,57 @@
+/* src/HomePage/PersonalLink.css */
+.personal-links {
+    margin-top: 10px; /* 调整链接上方空白 */
+  }
+  
+  .personal-links a {
+    display: inline-block;
+    margin-right: 10px;
+    /* color: #333; */
+    text-decoration: none;
+    padding: 5px 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    transition: background-color 0.3s ease, color 0.3s ease;
+    background-color: #fff;
+  }
+  
+  .personal-links a:hover {
+    background-color: #f0f0f0;
+    /* color: #0073e6; */
+  }
+  
+  .personal-links i {
+    font-size: 20px;
+  }
+  
+  .gmail {
+    color: #000;
+  }
+
+  .gmail:hover {
+    color: #f33737;
+  }
+
+  .bank {
+    color: #000;
+  }
+
+  .bank:hover {
+    color: #f59e2c;
+  }
+
+  .github {
+    color: black;
+  }
+
+  .github:hover {
+    color: #525050;
+  }
+
+  .linkedIn {
+    color: #000;
+  }
+
+  .linkedIn:hover {
+    color: #0073e6;
+  }
