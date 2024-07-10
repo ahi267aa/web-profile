@@ -17,7 +17,7 @@ function Header() {
             <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@700&display=swap" rel="stylesheet"></link>
             {/* <h5>2.5 years Software application development</h5> */}
             <h5>
-              I love Programming and Architecture Design and have been persevering on my portfolio since 2019.
+              I love Programming and Architecture Design and have been persevering on my research since 2019.
             </h5>
             <h5>
               I can provide a effective assistance start right away!

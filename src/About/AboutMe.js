@@ -25,7 +25,7 @@ function AboutMe() {
             <h2>Software & Web Developer</h2>
             <p class='about-content'>
               I love <HighLightText t="Programming" /> and <HighLightText t="Architecture Design" />,  
-              and have been persevering on my portfolio since <HighLightText t="2019" />,
+              and have been persevering on my research since <HighLightText t="2019" />,
               exterpise in algorithm and full-stack web development.
               Good at programming languages such as 
               <HighLightText t =" Python"/>, 
