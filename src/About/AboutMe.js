@@ -22,7 +22,7 @@ function AboutMe() {
           
           <div class="about-container-right-introduce">
             <h3>MY BIOGRAPHY</h3>
-            <h2>Software & Web Developer</h2>
+            <h2>Algorithm & Web Developer</h2>
             <p class='about-content'>
               I love <HighLightText t="Programming" /> and <HighLightText t="Architecture Design" />,  
               and have been persevering on my research since <HighLightText t="2019" />,
