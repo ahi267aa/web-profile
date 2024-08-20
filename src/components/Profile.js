@@ -39,11 +39,11 @@ const Profile = () => {
           </div>
         </div>
       </section>
-      {/* <section id="experience" className="section"> */}
+      <section id="experience" className="section">
         {/* <h2>Experience</h2>
         <p>Experience section content.</p> */}
-        {/* <Experience /> */}
-      {/* </section> */}
+        <Experience />
+      </section>
     </div>
   );
 };
