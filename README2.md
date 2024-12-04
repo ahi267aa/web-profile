@@ -5,8 +5,8 @@
 conda create --name langchain python=3.10.4
 ```
 - **API-KEY Apply**
-### 根據步驟進行下載，並設置 GOOGLE_APPLICATION_CREDENTIALS 到檔案路徑
-GOOGLE_APPLICATION_CREDENTIALS 檔案下載參考：https://developers.google.com/analytics/devguides/reporting/data/v1/quickstart-client-libraries?hl=zh-tw
+根據步驟進行下載，並設置 GOOGLE_APPLICATION_CREDENTIALS 到檔案路徑
+https://developers.google.com/analytics/devguides/reporting/data/v1/quickstart-client-libraries?hl=zh-tw
 
 
 ## Quick Install
