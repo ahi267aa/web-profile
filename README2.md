@@ -1,4 +1,4 @@
-## Preposing 
+## Preparatory 
 - **Environment Setting**
 
 ```bash
