@@ -1,5 +1,5 @@
 ## Preposing 
-- **Environment**
+- **Environment Setting**
 
 ```bash
 conda create --name langchain python=3.10.4
