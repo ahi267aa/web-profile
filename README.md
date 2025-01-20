@@ -15,13 +15,11 @@ conda create --name langchain python=3.10.4
 </br>
 
 - **API-KEY Apply**
-</br>
-**1、根據步驟進行下載，並設置 GOOGLE_API_KEY 到 app.py 中**
+- **1、根據步驟進行下載，並設置 GOOGLE_API_KEY 到 app.py 中**
 ```bash
 https://developers.google.com/maps/documentation/javascript/get-api-key?hl=zh-tw
 ```
-</br>
-**2、根據步驟進行下載，並設置 GOOGLE_APPLICATION_CREDENTIALS 到檔案路徑**
+- **2、根據步驟進行下載，並設置 GOOGLE_APPLICATION_CREDENTIALS 到檔案路徑**
 ```bash
 https://developers.google.com/analytics/devguides/reporting/data/v1/quickstart-client-libraries?hl=zh-tw
 ```
