@@ -6,18 +6,18 @@ bash Miniforge-pypy3-Linux-x86_64.sh
 ```bash
 source ~/.bashrc
 ```
-
+</br></br>
 - **Python環境設置**
 ```bash
 conda create --name langchain python=3.10.4
 ```  
 
 - **API-KEY Apply**
-**1、根據步驟進行下載，並設置 GOOGLE_API_KEY 到 app.py 中**
+- **1、根據步驟進行下載，並設置 GOOGLE_API_KEY 到 app.py 中**
 ```bash
 https://developers.google.com/maps/documentation/javascript/get-api-key?hl=zh-tw
 ```
-**2、根據步驟進行下載，並設置 GOOGLE_APPLICATION_CREDENTIALS 到檔案路徑**
+- **2、根據步驟進行下載，並設置 GOOGLE_APPLICATION_CREDENTIALS 到檔案路徑**
 ```bash
 https://developers.google.com/analytics/devguides/reporting/data/v1/quickstart-client-libraries?hl=zh-tw
 ```
